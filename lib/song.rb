@@ -9,10 +9,7 @@ class Song
     @@all << self  
   end
   
-  def artist=(artist)
-    self.artist = artist
 
-  end
   
   def self.all
     @@all
